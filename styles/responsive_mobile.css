@@ -1,25 +1,28 @@
 @media screen and (max-width: 576px) {
-  nav, .nav-list-container ul, .banner{
+  nav,
+  .nav-list-container ul,
+  .banner,
+  .card-container {
     flex-direction: column;
   }
-  nav{
+  nav {
     box-shadow: none;
     margin-top: 50px;
     padding: 0 50px;
-    
   }
- 
+
   .nav-list-container {
-   width: 250px;
-   margin-top: 20px;
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 100px;
   }
   .nav-list-container ul {
-    
   }
   .nav-list-container li {
-    
-   padding-bottom: 20px;
-   text-align: center;
-
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .banner {
+    flex-direction: column-reverse;
   }
 }
