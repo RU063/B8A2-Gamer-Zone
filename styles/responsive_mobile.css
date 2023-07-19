@@ -1,0 +1,25 @@
+@media screen and (max-width: 576px) {
+  nav, .nav-list-container ul, .banner{
+    flex-direction: column;
+  }
+  nav{
+    box-shadow: none;
+    margin-top: 50px;
+    padding: 0 50px;
+    
+  }
+ 
+  .nav-list-container {
+   width: 250px;
+   margin-top: 20px;
+  }
+  .nav-list-container ul {
+    
+  }
+  .nav-list-container li {
+    
+   padding-bottom: 20px;
+   text-align: center;
+
+  }
+}
