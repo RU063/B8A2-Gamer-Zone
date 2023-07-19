@@ -129,7 +129,7 @@ nav {
 }
 .btn-primary {
   border-radius: 48px;
-  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
   color: #fff;
   font-size: 1.25rem;
   font-weight: 600;
@@ -156,6 +156,7 @@ nav {
 /* banner style ends here  */
 /* main section styles */
 main {
+  visibility: hidden;
 }
 .online-games {
   text-align: center;
@@ -256,6 +257,7 @@ main {
 /* footer section styles  */
 
 footer {
+  visibility: hidden;
   background: #0b0223;
   padding: 20px 0;
 }
