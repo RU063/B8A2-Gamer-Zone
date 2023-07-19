@@ -229,16 +229,18 @@ main {
   );
 }
 .games-card {
-  
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-
   margin-right: 25px;
   margin-bottom: 30px;
   border-radius: 50px;
   background: #fff;
-  input:focu
+  
+}
+.games-card:hover{
+  cursor: pointer;
+ border: 2px solid rgb(241, 63, 93);
 }
 .games-card img {
   width: 50px;
@@ -249,4 +251,64 @@ main {
   color: #0b0223;
   font-size: 18px;
   font-weight: 600;
+}
+
+/* footer section styles  */
+
+footer {
+  background: #0b0223;
+  padding: 20px 0;
+}
+.footer-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.footer-title {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 700;
+}
+.footer-link {
+  text-align: center;
+  margin-top: 30px;
+}
+.footer-link a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  padding-right: 20px;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  .fa-brands {
+    font-size: 1.2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.fa-facebook {
+  color: blue;
+}
+.fa-square-youtube {
+  color: red;
+}
+.footer-terms span{
+  margin-right: 20px;
+}
+.footer-text {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 20px;
 }

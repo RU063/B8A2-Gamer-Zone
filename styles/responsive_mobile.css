@@ -2,7 +2,8 @@
   nav,
   .nav-list-container ul,
   .banner,
-  .card-container {
+  .card-container,
+  .play-games {
     flex-direction: column;
   }
   nav {
@@ -25,4 +26,16 @@
   .banner {
     flex-direction: column-reverse;
   }
+}
+.play-games {
+  margin-top: 200px;
+  margin-right: 20px;
+}
+.play-games-info {
+  text-align: center;
+  padding: 0 auto;
+}
+
+.play-games-img {
+  width: 100px;
 }
