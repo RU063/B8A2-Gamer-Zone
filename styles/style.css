@@ -342,15 +342,29 @@ footer {
 .fa-square-youtube {
   color: red;
 }
-.footer-terms span{
+/* .footer-terms span{
   margin-right: 20px;
+} */
+
+.footer-terms{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.footer-terms a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  padding-right: 10px;
+  text-align: center;
+  /* margin: 0 auto; */
+  font-size: 1.25rem;
+  font-weight: 500px;
 }
 .footer-text {
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
   font-size: 16px;
-  font-weight: 500;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  font-weight: 400;
+  padding-top: 1rem;
+  padding-bottom: 10px;
   margin-right: 20px;
 }
