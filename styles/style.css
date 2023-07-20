@@ -156,7 +156,7 @@ nav {
 /* banner style ends here  */
 /* main section styles */
 main {
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 .online-games {
   text-align: center;
@@ -195,18 +195,20 @@ main {
 }
 .play-games-info {
   text-align: right;
-  width: 50%;
-  margin-right: 100px;
+  width: 40%;
+  /* margin-right: 100px; */
 }
 .play-games-title {
   padding-bottom: 1.25rem;
 }
 .play-games-img {
-  width: 50%;
+  width: 60%;
 }
-/* .play-games-img img{
-  width: 100%;
-} */
+.play-games-img img{
+  width: fit-content;
+  /* padding-right: 200px; */
+  padding-left: 150px;
+}
 
 .position-img {
   width: 318px;
@@ -257,7 +259,7 @@ main {
 /* footer section styles  */
 
 footer {
-  visibility: hidden;
+  /* visibility: hidden; */
   background: #0b0223;
   padding: 20px 0;
 }
